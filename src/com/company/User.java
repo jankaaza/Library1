@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public abstract class User {
     private String first_name;
     private String last_name;
@@ -11,7 +13,7 @@ public abstract class User {
         this.phone_number = phone_number;
     }
 
-    public User(){
+    public User() {
         first_name = "UNKNOWN";
         last_name = "UNKNOWN";
         phone_number = "UNKNOWN";
@@ -40,6 +42,5 @@ public abstract class User {
     public void setPhone_number(String phone_number) {
         this.phone_number = phone_number;
     }
-
 
 }

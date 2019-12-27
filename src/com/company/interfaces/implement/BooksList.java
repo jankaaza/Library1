@@ -37,7 +37,6 @@ public class BooksList implements BooksListHelper {
         Book book8=new Book("Kiyamat","Chyngyz Aitmatov",today,370);
         Book book9=new Book("RomeoJuliet","William Shakespeare",today,370);
         Book book10=new Book("Evgenii Onegin","Aleksandr Pushkin",today,370);
-
         addBook(book1);
         books.add(book2);
         books.add(book3);

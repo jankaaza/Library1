@@ -9,7 +9,7 @@ public class Student extends User {
     }
     private String city;
     private LocalDate localDate;
-private List<Book> books;
+    private List<Book> books;
 
     public Student(String first_name, String last_name, String phone_number, String city, LocalDate localDate) {
         super(first_name, last_name, phone_number);
@@ -43,7 +43,7 @@ private List<Book> books;
         this.books = books;
     }
 
-     public void addBook(Book book){
+    public void addBook(Book book){
         this.books.add(book);
-     }
+    }
 }
